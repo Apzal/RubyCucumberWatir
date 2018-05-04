@@ -9,4 +9,5 @@ source 'https://rubygems.org' do
   gem 'require_all'
   gem 'activerecord'
   gem 'activesupport'
+  gem 'rake'
 end

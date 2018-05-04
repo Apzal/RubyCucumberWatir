@@ -59,6 +59,7 @@ GEM
       watir (~> 6.8)
     page_navigation (0.10)
       data_magic (>= 0.22)
+    rake (10.4.2)
     require_all (2.0.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -96,6 +97,7 @@ DEPENDENCIES
   cucumber!
   nokogiri!
   page-object!
+  rake!
   require_all!
   rspec!
   watir!
