@@ -7,7 +7,7 @@ require 'active_record'
 require 'active_support'
 require 'rspec'
 require_relative 'hooks'
-# require_rel '../features'
+require_rel '../features'
 require_rel '../pages'
 
 World(PageObject::PageFactory)
