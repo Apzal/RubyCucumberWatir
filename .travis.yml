@@ -6,7 +6,7 @@ rvm :
 #  - gem update --system
 #  - gem install bundler
 #
-#gemfile: gemfile
+gemfile: gemfile
 #
 #script:
 #  - cucumber
