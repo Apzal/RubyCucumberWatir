@@ -4,4 +4,6 @@ rvm :
 
 gemfile: gemfile
 
-a
+install:
+- bundle install
+script: bundle exec rake
