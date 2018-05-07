@@ -9,6 +9,3 @@ before_install:
 
 gemfile: gemfile
 
-install:
-  - bundle install
-script: bundle exec rake
