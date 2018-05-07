@@ -9,4 +9,4 @@ before_install:
 gemfile: gemfile
 
 script:
-  - rake
+  - cucumber
