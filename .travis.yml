@@ -9,3 +9,5 @@ before_install:
 
 gemfile: gemfile
 
+script:
+  - bundle exec rake spec
