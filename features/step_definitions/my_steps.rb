@@ -11,3 +11,4 @@ Then(/^I should see result for (.*)$/) do|expected|
   result=on_page(SearchPage).india_search_element.text
   expect(result == expected).to eq(true),'Could not find the text'
 end
+
