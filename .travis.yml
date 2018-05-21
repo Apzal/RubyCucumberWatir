@@ -11,6 +11,8 @@ packages:
 
 script: bundle exec cucumber
 
+gemfile: gemfile
+
 before_script:
 - bundle install
 - gem install watir
