@@ -1,1 +1,1 @@
-default: -r support/env.rb
+default: -r support/env.rb --out test.html
