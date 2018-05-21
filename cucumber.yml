@@ -1,1 +1,1 @@
-default: -r support/env.rb --format html --out report/output.html
+default: -r support/env.rb
