@@ -6,3 +6,8 @@ Before do|scenario|
   @browser=Watir::Browser.new :chrome
   @browser.goto('https://www.google.com')
 end
+
+
+After do|scenario|
+    scenario.close
+end
