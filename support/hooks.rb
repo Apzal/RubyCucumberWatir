@@ -9,5 +9,5 @@ end
 
 
 After do|scenario|
-    scenario.close
+    @browser.quit
 end
